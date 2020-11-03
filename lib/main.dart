@@ -14,7 +14,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  var myText = "chnage My name";
+  var myText = "I am dynamic!";
   TextEditingController _nameController = TextEditingController();
 
   @override
@@ -59,15 +59,15 @@ class _HomePageState extends State<HomePage> {
             padding: const EdgeInsets.all(0),
             children: <Widget>[
               UserAccountsDrawerHeader(
-                accountName: Text('Arifa M'),
-                accountEmail: Text('arifa@m.com'),
+                accountName: Text('Jessi M'),
+                accountEmail: Text('jessi@m.com'),
                 currentAccountPicture: CircleAvatar(
                     backgroundImage: NetworkImage(
                         "https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")),
               ),
               ListTile(
                 leading: Icon(Icons.person),
-                title: Text("Arifa Mujawar"),
+                title: Text("Jessi Mujawar"),
                 subtitle: Text("Developer"),
                 trailing: Icon(Icons.edit),
                 onTap: () {},
@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
               ListTile(
                 leading: Icon(Icons.email),
                 title: Text("Email"),
-                subtitle: Text("arifa@m.com"),
+                subtitle: Text("jessi@m.com"),
                 trailing: Icon(Icons.edit),
                 onTap: () {},
               ),
