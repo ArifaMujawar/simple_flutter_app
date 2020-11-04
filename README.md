@@ -1,6 +1,6 @@
 # simple_flutter_app
 
-A simple Flutter project which makes use of drawer widget and a text box which accepts any input and displays on the screen built using Visual Studio Code.
+A simple Flutter project which makes use of drawer widget and a text box which accepts any input and displays the same on screen.
 
 The application makes use of Flutter, Dart plugins provided by Visual Studio Code.
 
